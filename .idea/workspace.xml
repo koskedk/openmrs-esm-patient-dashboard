@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39945ca6-4920-4f4e-b6b3-75555c32f479" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dashboard-widgets/address-info/address-card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard-widgets/address-info/address-card.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dashboard-widgets/address-info/address-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard-widgets/address-info/address-form.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dashboard-widgets/address-info/address-info.parcel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard-widgets/address-info/address-info.parcel.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dashboard-widgets/address-info/address-form.component.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -67,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/dashboard-widgets/address-info/address-info.parcel.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="756">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -192,16 +190,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560927280604</updated>
       <workItem from="1560927281828" duration="9744000" />
-      <workItem from="1561011217981" duration="4951000" />
+      <workItem from="1561011217981" duration="5147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14695000" />
+    <option name="totallyTimeSpent" value="14891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="954" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3465909" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -220,7 +217,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33134684" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.33134684" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,7 +317,7 @@
     <entry file="file://$PROJECT_DIR$/src/dashboard-widgets/address-info/address-info.parcel.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -336,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dashboard-widgets/address-info/address-form.component.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
