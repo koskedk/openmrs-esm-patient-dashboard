@@ -8,6 +8,7 @@ const patientDashboardParcels = [
   () => import("../formentry/forms-parcel").then(m => m.default),
   () => System.import("@hackathon/relationships-widget"),
   () => System.import("@openmrs/latest-obs-widget"),
+
   () => import("./address-info/address-info.parcel").then(m => m.default)
 ];
 
