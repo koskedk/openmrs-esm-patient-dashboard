@@ -7,7 +7,8 @@ const patientDashboardParcels = [
   () => import("./recent-visits/recent-visits.parcel").then(m => m.default),
   () => import("../formentry/forms-parcel").then(m => m.default),
   () => System.import("@hackathon/relationships-widget"),
-  () => System.import("@openmrs/latest-obs-widget")
+  () => System.import("@openmrs/latest-obs-widget"),
+  () => import("./address-info/address-info.parcel").then(m => m.default)
 ];
 
 export default function DashboardWidgets(props: DashboardWidgetsProps) {
