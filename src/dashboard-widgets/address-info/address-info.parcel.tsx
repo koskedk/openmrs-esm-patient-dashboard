@@ -63,15 +63,18 @@ class AddressInfoParcel extends React.Component<any, any> {
 
   render() {
     return this.state.patient ? (
-      <div>
-        <button className="btn btn-link" onClick={this.showForm}>
-          {this.state.editLabel}
-        </button>
-        <Address
-          onSaved={this.loadPatient}
-          patient={this.state.patient}
-          editMode={this.state.showForm}
-        ></Address>
+      <div className="card">
+          <h1>Contact Information</h1>
+        <div className="card-body">
+          <button className="btn btn-link" onClick={this.showForm}>
+            {this.state.editLabel}
+          </button>
+          <Address
+            onSaved={this.loadPatient}
+            patient={this.state.patient}
+            editMode={this.state.showForm}
+          ></Address>
+        </div>
       </div>
     ) : (
       <div>loading</div>
