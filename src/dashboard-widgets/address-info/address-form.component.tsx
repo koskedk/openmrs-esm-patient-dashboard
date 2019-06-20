@@ -69,50 +69,88 @@ export class AddressForm extends React.Component<any, any> {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input
-            type="text"
-            value={this.state.address1}
-            onChange={event => this.setState({ address1: event.target.value })}
-            placeholder="Address Line 1"
-          />
-          <input
-            type="text"
-            value={this.state.address2}
-            onChange={event => this.setState({ address2: event.target.value })}
-            placeholder="Address Line 2"
-          />
-          <input
-            type="text"
-            value={this.state.cityVillage}
-            onChange={event =>
-              this.setState({ cityVillage: event.target.value })
-            }
-            placeholder="City/Village"
-          />
-          <input
-            type="text"
-            value={this.state.stateProvince}
-            onChange={event =>
-              this.setState({ stateProvince: event.target.value })
-            }
-            placeholder="State/Province"
-          />
-          <input
-            type="text"
-            value={this.state.country}
-            onChange={event => this.setState({ country: event.target.value })}
-            placeholder="Country"
-          />
-          <input
-            type="text"
-            value={this.state.postalCode}
-            onChange={event =>
-              this.setState({ postalCode: event.target.value })
-            }
-            placeholder="Postal Code"
-          />
+          <div className="form-group">
+            <label htmlFor="address1">Address Line 1</label>
+            <input
+              className="form-control"
+              id="address1"
+              type="text"
+              value={this.state.address1}
+              onChange={event =>
+                this.setState({ address1: event.target.value })
+              }
+              placeholder="Address Line 1"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="address2">Address Line 2</label>
+            <input
+              className="form-control"
+              id="address2"
+              type="text"
+              value={this.state.address2}
+              onChange={event =>
+                this.setState({ address2: event.target.value })
+              }
+              placeholder="Address Line 2"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="cityVillage">City/Village</label>
+            <input
+              className="form-control"
+              id="cityVillage"
+              type="text"
+              value={this.state.cityVillage}
+              onChange={event =>
+                this.setState({ cityVillage: event.target.value })
+              }
+              placeholder="City/Village"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="stateProvince">State/Province</label>
+            <input
+              className="form-control"
+              id="stateProvince"
+              type="text"
+              value={this.state.stateProvince}
+              onChange={event =>
+                this.setState({ stateProvince: event.target.value })
+              }
+              placeholder="State/Province"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="country">Country</label>
+            <input
+              className="form-control"
+              id="country"
+              type="text"
+              value={this.state.country}
+              onChange={event => this.setState({ country: event.target.value })}
+              placeholder="Country"
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="postalCode">Postal Code</label>
+            <input
+              className="form-control"
+              id="postalCode"
+              type="text"
+              value={this.state.postalCode}
+              onChange={event =>
+                this.setState({ postalCode: event.target.value })
+              }
+              placeholder="Postal Code"
+            />
+          </div>
           <br />
-          <button type="submit" disabled={this.state.submitForm}>
+          <button
+            type="submit"
+            className="btn btn-primary"
+            disabled={this.state.submitForm}
+          >
             {this.state.submitFormLabel}
           </button>
         </form>
